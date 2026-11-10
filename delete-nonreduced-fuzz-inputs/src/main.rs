@@ -9,7 +9,8 @@
 // This script tries to do so in a way that is as deterministic as possible.
 //
 // The script should be run on an x86_64 virtual machine with only a minimal
-// vanilla Ubuntu Resolute 26.04 installed. Ideally, the script was run on
+// vanilla Ubuntu Resolute 26.04 installed, or with the Dockerfile next to it,
+// which provides the same. Ideally, the script was run on
 // different architectures or even different OS versions, which come with
 // different library packages, but this is left as a future improvement. Also,
 // it's recommended to run the script twice to ensure that the results are

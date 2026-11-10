@@ -31,7 +31,9 @@ redundant inputs are added.
 To avoid corpora bloat, stale inputs and potential CI timeouts, we usually
 prune/minimize our corpora around the branch-off point using the
 [`delete-nonreduced-fuzz-inputs`](/delete-nonreduced-fuzz-inputs)
-script (Recommended to run in a fresh VM, see documentation in the script). The
+script (Recommended to run in a fresh VM or with its
+[`Dockerfile`](/delete-nonreduced-fuzz-inputs/Dockerfile), see documentation in
+the script). The
 script is usually run twice to ensure that the results are "somewhat"
 reproducible (e.g.
 https://github.com/bitcoin-core/qa-assets/pull/119#issuecomment-1518019457).
